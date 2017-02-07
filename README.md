@@ -1,4 +1,4 @@
-<h1 align="center">Smart Mirror - Artemis</h1>
+<h1 align="center">Smart Mirror - Apollo</h1>
 
 <p align="center">
 <a href="https://discord.gg/EMb4ynW"><img src="https://discordapp.com/api/guilds/258802311298547713/widget.png" alt="Discord Chat"/></a>

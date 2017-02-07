@@ -46,5 +46,5 @@ function Timer($scope, TimerService, SpeechService, Focus) {
 }
 
 
-angular.module('Artemis')
+angular.module('Apollo')
     .controller('Timer', Timer);

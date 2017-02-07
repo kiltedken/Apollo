@@ -42,6 +42,25 @@
         },
         "setup" : []
     },
+    "greeting": {
+      "option": "time",
+        "morning": [
+          "Time for coffee!", "Good Morning!", "Morning!", "Guten Morgen!", "Morgen!", "Bonjour!", "Réveille-toi!", "Wake up!", "What's for breakfast?", "Breakfast time!", "Why are you awake?!", "Go back to bed!", "Greetings!", "Time for work!", "Nice Butt!"
+        ],
+        "midday": [
+          "Time for lunch!", "Hey!", "Hello", "Good day!", "Bonne journée!", "Guten Tag!", "Salut!", "Hallo!", "Hola!", "What's for lunch?", "Howdy!", "Wie geht es dir?", "Allô?", "Grüße!", "Greetings!", "Salutations!", "Bonne chance!", "Nice Butt!", "Hey Handsome!"
+        ],
+        "afternoon": [
+          "Good afternoon!", "Bonne après-midi!", "Nachmittag!", "Afternoon!", "Nap time?", "How was your day?", "Nice to see you!", "Hey!", "Wie geht’s?", "Hey there!", "Coucou!", "Quoi de neuf?", "Hey Cutie!", "Lookin' Good!"
+        ],
+        "evening": [
+          "Good evening!", "Bonsoir!", "Guten Abend!", "Abend!", "Dinner time!", "What's for dinner?", "Hi there!", "What's up?", "Ça va?", "A plus tard!", "Comment allez-vous?", "See you later!", "Going out?", "Nice Butt!", "Hey Handsome!"
+        ],
+        "night": [
+          "Bed?", "Goodnight!", "zZzzZz", "Time to sleep!", "Gute Nacht!", "Bonne nuit!", "Sleep well", "No, seriously go to bed!", "Why are you still awake?!", "Tacos?", "Oh, I'm so sleepy!", "Bis Morgen!", "A demain!", "A la prochaine!", "Adieu!", "Auf Wiedersehen!", "Night night!", "Sleep is for the dead!", "Ready to party!!",
+        "Au revoir!", "Tschüß!"
+        ]
+    },
 
     "calendar": {
       "icals" : [""],

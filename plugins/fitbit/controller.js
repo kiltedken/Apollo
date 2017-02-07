@@ -29,5 +29,5 @@ function Fitbit($scope, $interval, FitbitService, SpeechService) {
 
 }
 
-angular.module('Artemis')
+angular.module('Apollo')
     .controller('Fitbit', Fitbit);

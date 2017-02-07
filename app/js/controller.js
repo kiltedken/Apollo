@@ -1,7 +1,7 @@
 (function (angular) {
     'use strict';
 
-    function ArtemisCtrl(
+    function ApolloCtrl(
         Focus,
         SpeechService,
         AutoSleepService,
@@ -148,14 +148,14 @@
         _this.init();
     }
 
-    angular.module('Artemis')
-        .controller('ArtemisCtrl', ArtemisCtrl);
+    angular.module('Apollo')
+        .controller('ApolloCtrl', ApolloCtrl);
 
     function themeController($scope) {
         $scope.layoutName = (typeof config.layout !== 'undefined' && config.layout) ? config.layout : 'main';
     }
 
-    angular.module('Artemis')
+    angular.module('Apollo')
         .controller('Theme', themeController);
 
 } (window.angular));

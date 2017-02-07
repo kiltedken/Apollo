@@ -36,5 +36,5 @@ function Stock($scope, $http, $q, $interval) {
     $interval(getStocks, 1800000);
 }
 
-angular.module('Artemis')
+angular.module('Apollo')
     .controller('Stock', Stock);

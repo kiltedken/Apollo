@@ -11,5 +11,5 @@ function Xkcd($scope, $http, SpeechService, Focus) {
 
 }
 
-angular.module('Artemis')
+angular.module('Apollo')
     .controller('Xkcd', Xkcd);

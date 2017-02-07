@@ -25,7 +25,7 @@
     return service;
   }
 
-  angular.module('Artemis')
+  angular.module('Apollo')
     .factory('TimeboxService', TimeboxService);
 
 } ());

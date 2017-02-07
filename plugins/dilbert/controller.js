@@ -28,5 +28,5 @@ function Dilbert($scope, $http, $q, SpeechService, Focus) {
 
 }
 
-angular.module('Artemis')
+angular.module('Apollo')
     .controller('Dilbert', Dilbert);

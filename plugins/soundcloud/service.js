@@ -109,7 +109,7 @@
     canvasCtx.stroke();
   }
 
-  angular.module('Artemis')
+  angular.module('Apollo')
     .factory('SoundCloudService', SoundCloudService);
 
 } ());

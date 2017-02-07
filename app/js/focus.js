@@ -17,7 +17,7 @@
         return service
     }
 
-    angular.module('Artemis')
+    angular.module('Apollo')
         .factory('Focus', Focus)
 
 } (window.annyang));

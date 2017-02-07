@@ -75,5 +75,5 @@ function Reminder($scope, SpeechService, $translate, Focus) {
     });
 }
 
-angular.module('Artemis')
+angular.module('Apollo')
     .controller('Reminder', Reminder);

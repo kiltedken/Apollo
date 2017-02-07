@@ -48,5 +48,5 @@ function Rss($scope, $http, $q, $interval) {
 }
 
 
-angular.module('Artemis')
+angular.module('Apollo')
     .controller('Rss', Rss);

@@ -12,5 +12,5 @@ function Calendar($scope, $http, $interval, CalendarService) {
     $interval(getCalendar, config.calendar.refreshInterval * 60000 || 1800000)
 }
 
-angular.module('Artemis')
+angular.module('Apollo')
     .controller('Calendar', Calendar);

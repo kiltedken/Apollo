@@ -19,5 +19,5 @@ function Apps($scope, SpeechService, Focus) {
   });
 
 }
-angular.module('Artemis')
+angular.module('Apollo')
     .controller('Apps', Apps);

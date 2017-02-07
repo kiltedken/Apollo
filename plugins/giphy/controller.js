@@ -9,5 +9,5 @@ function Giphy($scope, $http, SpeechService, Focus) {
     });
 }
 
-angular.module('Artemis')
+angular.module('Apollo')
     .controller('Giphy', Giphy);

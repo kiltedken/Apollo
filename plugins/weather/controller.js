@@ -85,5 +85,5 @@ function Weather($scope, $interval, $http, GeolocationService) {
     }
 }
 
-angular.module('Artemis')
+angular.module('Apollo')
     .controller('Weather', Weather);

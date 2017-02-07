@@ -41,5 +41,5 @@ function Search($scope, $http, SpeechService, $rootScope, Focus) {
 
 }
 
-angular.module('Artemis')
+angular.module('Apollo')
     .controller('Search', Search);

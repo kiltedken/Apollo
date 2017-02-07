@@ -11,5 +11,5 @@ function Scrobbler($scope, $interval, ScrobblerService) {
     }
 }
 
-angular.module('Artemis')
+angular.module('Apollo')
     .controller('Scrobbler', Scrobbler);

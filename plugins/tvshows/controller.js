@@ -24,5 +24,5 @@ function TVShows($scope, $http, $interval) {
     }
 }
 
-angular.module('Artemis')
+angular.module('Apollo')
     .controller('TVShows', TVShows);

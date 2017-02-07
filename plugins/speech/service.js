@@ -93,7 +93,7 @@ const {ipcRenderer} = require('electron');
         return service;
     }
 
-    angular.module('Artemis')
+    angular.module('Apollo')
         .factory('SpeechService', SpeechService)
 
 } (window.annyang));

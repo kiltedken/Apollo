@@ -85,5 +85,5 @@ var BING_MAPS = "http://dev.virtualearth.net/REST/V1/Routes/"
     $interval(refreshTrafficData, config.traffic.refreshInterval * 60000 || 900000)
 }
 
-angular.module('Artemis')
+angular.module('Apollo')
     .controller('Traffic', Traffic);

@@ -13,5 +13,5 @@ function AutoSleep($http, $q, SpeechService,AutoSleepService, Focus) {
     });
 }
 
-angular.module('Artemis')
+angular.module('Apollo')
     .controller('AutoSleep', AutoSleep);

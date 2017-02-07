@@ -76,7 +76,7 @@
 
         //Call Lights to blink
         LightService.blink();
-        
+
         $rootScope.$broadcast("timer:stop", service.countdown);
       }
     };
@@ -157,7 +157,7 @@
     };
   };
 
-  angular.module('Artemis')
+  angular.module('Apollo')
     .factory('TimerService', TimerService)
     .filter('secondsToDateTime', secondsToDateTime)
     .directive('timerCircle', TimerCircle);

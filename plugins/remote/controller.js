@@ -29,5 +29,5 @@ function Remote($scope, SpeechService, Focus) {
     }
 }
 
-angular.module('Artemis')
+angular.module('Apollo')
     .controller('Remote', Remote);

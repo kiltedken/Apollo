@@ -24,5 +24,5 @@ function Maker($http, SpeechService) {
     }
 }
 
-angular.module('Artemis')
+angular.module('Apollo')
     .controller('Maker', Maker);

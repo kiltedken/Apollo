@@ -30,7 +30,7 @@ function Map($scope, $http, GeolocationService, SpeechService, Focus) {
         $scope.map = generateMap();
     });
 
-    
+
     SpeechService.addCommand('map_location', function (location) {
         $scope.map = generateMap(location);
         Focus.change("map");
@@ -63,5 +63,5 @@ function Map($scope, $http, GeolocationService, SpeechService, Focus) {
     });
 }
 
-angular.module('Artemis')
+angular.module('Apollo')
     .controller('Map', Map);

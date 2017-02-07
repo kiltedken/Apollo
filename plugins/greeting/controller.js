@@ -35,5 +35,5 @@ function Greeting($rootScope, $scope, $http, $interval) {
     }
 }
 
-angular.module('Artemis')
+angular.module('Apollo')
     .controller('Greeting', Greeting);
